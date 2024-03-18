@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main() {
+int a = 500, b, c;
+if (a >= 400)
+b = 300;
+c = 200;
+cout << "value of b and c are respectively " << b << " and " << c;
+return 0;
+}
+
+
+Ans: The output for the above code will be - 
+
+    value of b and c are 300 and 200 respectively.
+
+Because, The value of b is set to 300 and c is set to 200 WHEN the value of a
+is greater or equal to 400. But the given value of a is 500. Hence, b and c will
+will have the values 300 and 200 respectively.
